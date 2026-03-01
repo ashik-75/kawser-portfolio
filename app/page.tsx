@@ -40,7 +40,7 @@ export default function Page() {
       {/* ── Nav ──────────────────────────────────────────────────────── */}
       <nav className="fixed top-0 inset-x-0 z-50 flex items-center justify-between px-6 sm:px-12 py-4 bg-[#0b0f0e]/80 backdrop-blur-md border-b border-white/5">
         <span className="font-mono-tight text-sm font-medium tracking-tight">
-          pro<span className="text-[#4dffb4]">least</span>.com
+          pro<span className="text-[#4dffb4]">leadlist</span>.com
         </span>
         <a
           href="#contact"
