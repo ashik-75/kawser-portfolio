@@ -175,10 +175,6 @@ export default function Page() {
             allowFullScreen
           />
         </div>
-
-        <p className="mt-4 font-mono-tight text-xs text-[#4a5c52] text-center">
-          ↑ Replace the src URL with your actual YouTube video link
-        </p>
       </section>
 
       {/* ════════════════════════════════════════════════════════════════
@@ -201,7 +197,7 @@ export default function Page() {
 
         <div className="rounded-2xl overflow-hidden border border-white/8 bg-[#111714] shadow-[0_0_80px_rgba(77,255,180,0.06)]">
           <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#4dffb4]/30 to-transparent" />
-          {/* Airtable embed — replace src with your actual Airtable share link */}
+
           <iframe
             src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTFcWTRq2jucIpcLdcRWfs4iOjUi-dU1b2eB0__ZaPBlpRBhfLK9lHpu8dfKF3Ft_ui2hegNvcyKM4p/pubhtml"
             className="w-full border-none"
@@ -209,10 +205,6 @@ export default function Page() {
             title="Sample Demo Leads"
           />
         </div>
-
-        <p className="mt-4 font-mono-tight text-xs text-[#4a5c52] text-center">
-          ↑ Replace the src URL with your Airtable share embed link
-        </p>
       </section>
 
       {/* ════════════════════════════════════════════════════════════════
