@@ -8,12 +8,12 @@ export const metadata: Metadata = {
 
 // ─── Pricing data ─────────────────────────────────────────────────────────────
 const pricing = [
-  { no: 1, leads: "1K", price: "$4.49" },
-  { no: 2, leads: "2K", price: "$8.98" },
-  { no: 3, leads: "3K", price: "$13.47" },
-  { no: 4, leads: "4K", price: "$17.96" },
-  { no: 5, leads: "5K", price: "$22.45" },
-  { no: 6, leads: "6K", price: "$26.94" },
+  { no: 1, leads: "1K", price: "$3" },
+  { no: 2, leads: "5K", price: "$15" },
+  { no: 3, leads: "10K", price: "$30" },
+  { no: 4, leads: "50K", price: "$140" },
+  { no: 5, leads: "100K", price: "$280" },
+  { no: 6, leads: "200K", price: "$500" },
 ];
 
 export default function Page() {
