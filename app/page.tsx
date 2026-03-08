@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ProLeast — Apollo Lead Generation, Starting at $4.49",
+  title: "ProLeast — Apollo Lead Generation, Starting at $3",
   description:
-    "Scrape 1,000+ Apollo leads with no Chrome extension. Starting at just $4.49.",
+    "Scrape 1,000+ Apollo leads with no Chrome extension. Starting at just $3.",
 };
 
 // ─── Pricing data ─────────────────────────────────────────────────────────────
@@ -104,7 +104,7 @@ export default function Page() {
           <p className="fade-up d3 mt-6 text-base sm:text-lg text-[#7a8c82] max-w-2xl mx-auto leading-relaxed">
             Bypass Chrome extensions and enjoy direct access to thousands of
             Apollo leads, all for a starting price of just{" "}
-            <span className="text-white font-semibold">$4.49</span>. Elevate
+            <span className="text-white font-semibold">$3</span>. Elevate
             your sales strategy with our streamlined and cost-effective solution
             with{" "}
             <a
@@ -122,7 +122,7 @@ export default function Page() {
               href="#contact"
               className="bg-[#4dffb4] text-[#0b0f0e] font-bold font-mono-tight text-sm px-8 py-4 rounded-full hover:brightness-110 hover:-translate-y-0.5 transition-all shadow-[0_0_40px_rgba(77,255,180,0.25)]"
             >
-              Get Started — from $4.49
+              Get Started — from $3
             </a>
             <a
               href="#pricing"
@@ -136,7 +136,7 @@ export default function Page() {
           <div className="mt-16 flex flex-wrap justify-center gap-8">
             {[
               ["1M+", "Leads Exported"],
-              ["$4.49", "Starting Price"],
+              ["$3", "Starting Price"],
               ["8–10h", "Delivery Time"],
             ].map(([num, label]) => (
               <div key={label} className="text-center">
@@ -415,6 +415,37 @@ export default function Page() {
               ↗
             </span>
           </a>
+
+          {/* Upwork */}
+<a
+  href="https://www.upwork.com/freelancers/~0110dcb49830f47734"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group flex flex-col gap-4 bg-[#0f1411] border border-white/8 rounded-2xl p-6 hover:border-[#4dffb4]/30 hover:-translate-y-1 transition-all"
+>
+  <div className="w-12 h-12 rounded-xl bg-[#4dffb4]/10 border border-[#4dffb4]/20 flex items-center justify-center group-hover:bg-[#4dffb4]/15 transition-colors">
+    <svg
+      className="w-5 h-5 text-[#4dffb4]"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path d="M17.5 3h-3.6c-.7 0-1.2.5-1.2 1.2v9.2c0 1.7-1 2.8-2.5 2.8s-2.5-1.1-2.5-2.8V4.2C7.7 3.5 7.2 3 6.5 3H3v10.4C3 17.3 5.5 20 9.1 20c2.1 0 3.8-.9 4.9-2.4V20h3.5c.7 0 1.2-.5 1.2-1.2V4.2c0-.7-.5-1.2-1.2-1.2z" />
+    </svg>
+  </div>
+
+  <div>
+    <p className="font-mono-tight text-[10px] text-[#4a5c52] uppercase tracking-widest mb-1">
+      Upwork
+    </p>
+    <p className="text-sm text-[#c8d9cc] group-hover:text-[#4dffb4] transition-colors">
+      Hire Me on Upwork
+    </p>
+  </div>
+
+  <span className="mt-auto self-end text-[#2a3c32] group-hover:text-[#4dffb4] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all text-lg">
+    ↗
+  </span>
+</a>
         </div>
       </section>
 
