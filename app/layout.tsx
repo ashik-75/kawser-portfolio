@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   // ── Core ──────────────────────────────────────────────
   metadataBase: new URL("https://www.proleadlist.com"),
   title: {
-    default: "ProLeast — Apollo Lead Generation, Starting at $4.49",
+    default: "ProLeast — Apollo Lead Generation, Starting at $3",
     template: "%s | ProLeast",
   },
   description:
-    "Scrape 1,000+ Apollo leads with no Chrome extension. Starting at just $4.49. Fast delivery in 8–10 hours.",
+    "Scrape 1,000+ Apollo leads with no Chrome extension. Starting at just $3. Fast delivery in 8–10 hours.",
 
   // ── Canonical ─────────────────────────────────────────
   alternates: {
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
 
   // ── Open Graph ────────────────────────────────────────
   openGraph: {
-    title: "ProLeast — Apollo Lead Generation, Starting at $4.49",
+    title: "ProLeast — Apollo Lead Generation, Starting at $3",
     description:
-      "Scrape 1,000+ Apollo leads. No Chrome extension needed. From $4.49.",
+      "Scrape 1,000+ Apollo leads. No Chrome extension needed. From $3.",
     url: "https://www.proleadlist.com",
     siteName: "ProLeast",
     images: [
@@ -56,9 +56,9 @@ export const metadata: Metadata = {
   // ── Twitter / X ───────────────────────────────────────
   twitter: {
     card: "summary_large_image",
-    title: "ProLeast — Apollo Lead Generation, Starting at $4.49",
+    title: "ProLeast — Apollo Lead Generation, Starting at $3",
     description:
-      "Scrape 1,000+ Apollo leads. No Chrome extension needed. From $4.49.",
+      "Scrape 1,000+ Apollo leads. No Chrome extension needed. From $3.",
     images: ["/og-image.png"],
   },
 
@@ -94,7 +94,7 @@ export default function RootLayout({
               name: "ProLeast Apollo Lead Generation",
               url: "https://www.proleadlist.com",
               description:
-                "Scrape 1,000+ Apollo leads with no Chrome extension. Starting at $4.49.",
+                "Scrape 1,000+ Apollo leads with no Chrome extension. Starting at $3.",
               provider: {
                 "@type": "Person",
                 name: "Kowser Ahmed",
@@ -103,9 +103,9 @@ export default function RootLayout({
               offers: {
                 "@type": "Offer",
                 priceCurrency: "USD",
-                price: "4.49",
+                price: "3",
                 availability: "https://schema.org/InStock",
-                description: "1,000 Apollo leads starting at $4.49",
+                description: "1,000 Apollo leads starting at $3",
               },
             }),
           }}
